@@ -1,7 +1,9 @@
+import { Header } from "../../modules/Header/Header";
+
 export const HomePage = () => {
   return (
     <div>
-      <h1>Flora and Magic</h1>
+      <Header />
     </div>
   );
 };

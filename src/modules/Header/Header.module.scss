@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+  .contact {
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+    a {
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      color: #545761;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
