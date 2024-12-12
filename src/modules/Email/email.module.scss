@@ -1,0 +1,57 @@
+.Subscribe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+
+    h2{
+      font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: #272A33;
+    }
+    p{
+      font-size: 30px;
+      font-weight: 500;
+      color: #545761;
+      font-family: "Montserrat", sans-serif;
+    }
+    .inputEmail{
+      display: flex;
+      gap: 35px;
+
+      input{
+        width: 870px;
+        height: 94px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        color: #272A33;
+        padding-left: 30px;
+      }
+      button{
+        width: 260px;
+        height: 94px;
+        background-color: #272A33;
+        cursor: pointer;
+
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+      }
+    }
+  }
+
+  
+}
