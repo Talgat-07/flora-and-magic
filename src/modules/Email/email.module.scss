@@ -53,5 +53,58 @@
     }
   }
 
-  
+  .InfoEmail{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+
+    p{
+      font-size: 20px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      color: #272A33;
+    }
+    .hand{
+      display: flex;
+      align-items: center;
+
+      Hand{
+        width: 114px;
+        height: 80px;
+      }
+      p{
+        width: 270px;
+      }
+    }
+
+    .truck1{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      Truck{
+        width: 110px;
+        height: 75px;
+      }
+    }
+    .truck2{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    Track2{
+      width: 135px;
+      height: 135px;
+    }
+    
+    .protection{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      p{
+        width: 270px;
+      }
+    }
+  }
 }
