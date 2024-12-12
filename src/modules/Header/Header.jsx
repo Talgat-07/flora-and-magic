@@ -13,12 +13,14 @@ export const Header = () => {
       </div>
       <div className={styles.title}>
         <h1>Flora and Magic</h1>
-        <p>My Favorite Colors are flowers</p>
+        <p>Мои любимые цвета — цветы</p>
       </div>
-      <div className={styles.search}>
-        <input type="text" />
-        <IconSearch />
-      </div>
+      <form className={styles.search}>
+        <input type="text" placeholder="Поиск" />
+        <button type="submit">
+          <IconSearch />
+        </button>
+      </form>
     </div>
   );
 };

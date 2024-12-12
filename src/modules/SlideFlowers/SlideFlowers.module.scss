@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  .title {
+    padding: 0 5%;
+    h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 48px;
+      font-weight: 500;
+      color: #545761;
+      line-height: 150%;
+    }
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px;
+      color: #545761;
+    }
+  }
+  .slideCard {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    img {
+      width: 532px;
+      height: 532px;
+      object-fit: cover;
+    }
+    h3 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      color: #545761;
+    }
+    .category {
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px;
+      color: #54576186;
+      font-weight: 500;
+    }
+    .price {
+      font-family: "Montserrat", sans-serif;
+      font-size: 28px;
+      font-weight: 500;
+      color: #545761;
+    }
+  }
+}
+
+.prevArrow {
+  display: flex;
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+  bottom: 50%;
+  cursor: pointer;
+  svg {
+    transform: rotate(180deg);
+  }
+  padding: 12px 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.nextArrow {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  z-index: 2;
+  bottom: 50%;
+  cursor: pointer;
+  padding: 12px 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
