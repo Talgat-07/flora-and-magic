@@ -1,0 +1,100 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 100px;
+}
+
+.container .title {
+  padding: 0 5%;
+}
+
+.container .title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: #545761;
+  line-height: 150%;
+}
+
+.container .title p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #545761;
+}
+
+.container .slideCard {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.container .slideCard img {
+  width: 532px;
+  height: 532px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .slideCard h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  color: #545761;
+}
+
+.container .slideCard .category {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  color: #54576186;
+  font-weight: 500;
+}
+
+.container .slideCard .price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: #545761;
+}
+
+.prevArrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+  bottom: 50%;
+  cursor: pointer;
+  padding: 12px 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.prevArrow svg {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.nextArrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 5%;
+  z-index: 2;
+  bottom: 50%;
+  cursor: pointer;
+  padding: 12px 16px;
+  background-color: #fff;
+  border: 1px solid #000;
+}

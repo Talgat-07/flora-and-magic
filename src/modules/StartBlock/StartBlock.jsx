@@ -1,4 +1,4 @@
-import styles from "./StartBlock.module.scss";
+import styles from "./StartBlock.module.css";
 import bg from "../../assets/images/start-flowers.webp";
 
 export const StartBlock = () => {

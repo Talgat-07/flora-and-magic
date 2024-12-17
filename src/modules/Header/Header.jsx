@@ -1,6 +1,6 @@
 import { PhoneIcon } from "../../assets/icons/PhoneIcon";
 import { IconSearch } from "../../assets/icons/IconSearch";
-import styles from "./Header.module.scss";
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (

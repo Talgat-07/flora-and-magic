@@ -1,4 +1,4 @@
-import styles from "./FlowerMarket.module.scss";
+import styles from "./FlowerMarket.module.css";
 import img from "../../assets/images/flower-market-img.webp";
 
 export const FlowerMarket = () => {

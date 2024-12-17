@@ -1,0 +1,155 @@
+.Subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.Subscribe .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 55px;
+}
+
+.Subscribe .email h2 {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #272A33;
+}
+
+.Subscribe .email p {
+  font-size: 30px;
+  font-weight: 500;
+  color: #545761;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Subscribe .email .inputEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+}
+
+.Subscribe .email .inputEmail input {
+  width: 870px;
+  height: 94px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #272A33;
+  padding-left: 30px;
+}
+
+.Subscribe .email .inputEmail button {
+  background-color: #272A33;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-size: 40px;
+  padding: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.Subscribe .InfoEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+
+.Subscribe .InfoEmail p {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  color: #272A33;
+}
+
+.Subscribe .InfoEmail .hand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Subscribe .InfoEmail .hand Hand {
+  width: 114px;
+  height: 80px;
+}
+
+.Subscribe .InfoEmail .hand p {
+  width: 270px;
+}
+
+.Subscribe .InfoEmail .truck1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.Subscribe .InfoEmail .truck1 Truck {
+  width: 110px;
+  height: 75px;
+}
+
+.Subscribe .InfoEmail .truck2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.Subscribe .InfoEmail Track2 {
+  width: 135px;
+  height: 135px;
+}
+
+.Subscribe .InfoEmail .protection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.Subscribe .InfoEmail .protection p {
+  width: 270px;
+}

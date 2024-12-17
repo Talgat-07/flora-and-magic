@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from "../../assets/icons/ArrowRightIcon";
 import bg from "../../assets/images/present-flowers.webp";
-import styles from "./PresentFlowers.module.scss";
+import styles from "./PresentFlowers.module.css";
 
 export const PresentFlowers = () => {
   return (

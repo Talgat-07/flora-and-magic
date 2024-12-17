@@ -1,7 +1,7 @@
 import imgFlowers1 from "../../assets/images/flowers-1.webp";
 import imgFlowers2 from "../../assets/images/flowers-2.webp";
 import imgFlowers3 from "../../assets/images/flowers-3.webp";
-import styles from "./FreshAndBeautifulFlowers.module.scss";
+import styles from "./FreshAndBeautifulFlowers.module.css";
 
 export const FreshAndBeautifulFlowers = () => {
   return (

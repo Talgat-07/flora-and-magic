@@ -1,5 +1,5 @@
 import bg from "../../assets/images/help-flowers.webp";
-import styles from "./Help.module.scss";
+import styles from "./Help.module.css";
 
 export const Help = () => {
   return (

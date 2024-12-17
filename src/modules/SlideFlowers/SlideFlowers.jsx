@@ -1,6 +1,6 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import styles from "./SlideFlowers.module.scss";
+import styles from "./SlideFlowers.module.css";
 import Slider from "react-slick";
 import { slideFlowersData } from "../../utils/constants/constants";
 import { ArrowIcon } from "../../assets/icons/ArrowIcon";
