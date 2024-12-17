@@ -1,4 +1,6 @@
+import BlockEmail from "../../modules/Email/BlockEmail";
 import { FlowerMarket } from "../../modules/FlowerMarket/FlowerMarket";
+import FooterBlock from "../../modules/Footer/Footer";
 import { FreshAndBeautifulFlowers } from "../../modules/FreshAndBeautifulFlowers/FreshAndBeautifulFlowers";
 import { Header } from "../../modules/Header/Header";
 import { Help } from "../../modules/Help/Help";
@@ -16,6 +18,9 @@ export const HomePage = () => {
       <Help />
       <SlideFlowers />
       <PresentFlowers />
+      <BlockEmail/>
+      <FooterBlock/>
+      
     </div>
   );
 };
